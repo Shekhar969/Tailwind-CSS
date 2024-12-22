@@ -1,5 +1,5 @@
-import './App.css';
-import Logo from './assets/react.svg';
+import "./App.css";
+import Logo from "./assets/react.svg";
 
 function App() {
   return (
@@ -13,6 +13,21 @@ function App() {
           <p className="text-slate-500">You have a new message!</p>
         </div>
       </div>
+
+      <div className="p-1 bg-violet-500 hover:bg-violet-600 ">
+        Hello I Am Shekhar Rawal
+      </div>
+
+      <nav className="flex justify-between mt-5 bg-slate-200 h-10">
+        <div className="flex justify-center items-center">
+          <img className="h-8" src={Logo} alt="reactLogo" />
+        </div>
+        <ul className="flex space-x-20 ">
+          <li className=" ">Home</li>
+          <li>About</li>
+          <li>Contect US</li>
+        </ul>
+      </nav>
     </>
   );
 }
