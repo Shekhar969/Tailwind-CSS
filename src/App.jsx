@@ -18,11 +18,11 @@ function App() {
         Hello I Am Shekhar Rawal
       </div>
 
-      <nav className="flex justify-between mt-5 bg-slate-200 h-10">
+      <nav className="flex md:justify-between mt-5 bg-slate-200 h-10 flex-col md:flex-row">
         <div className="flex justify-center items-center">
           <img className="h-8" src={Logo} alt="reactLogo" />
         </div>
-        <ul className="flex space-x-20 ">
+        <ul className="flex md:flex-row justify-center items-center m-8 md:space-x-20 flex-col bg-red-400 w-100%">
           <li className=" ">Home</li>
           <li>About</li>
           <li>Contect US</li>
