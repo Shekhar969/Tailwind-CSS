@@ -13,12 +13,11 @@ function App() {
           <p className="text-slate-500">You have a new message!</p>
         </div>
       </div>
-
       <div className="p-1 bg-violet-500 hover:bg-violet-600 ">
         Hello I Am Shekhar Rawal
       </div>
-
-      <nav className="flex md:justify-between mt-5 bg-slate-200 h-10 flex-col md:flex-row">
+      ////
+      <nav className="flex md:justify-between mt-5 bg-slate-200 h-10 flex-col md:flex-row items-center">
         <div className="flex justify-center items-center">
           <img className="h-8" src={Logo} alt="reactLogo" />
         </div>
@@ -28,6 +27,15 @@ function App() {
           <li>Contect US</li>
         </ul>
       </nav>
+      <main className="flex m-10 gap-10 ">
+        <div className="h-60 w-60  bg-slate-500 "> </div>                   
+        <div className="h-60 w-60  bg-slate-500 "> </div>
+        <div className="h-60 w-60  bg-slate-500 "> </div>
+        <div className="h-60 w-60  bg-slate-500 "> </div>
+      </main>
+      <footer >
+        <div className="w-100 h-5 bg-slate-600 justify-center flex"> This is Footer</div>
+      </footer>
     </>
   );
 }
