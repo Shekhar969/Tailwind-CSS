@@ -32,6 +32,7 @@ function App() {
         <div className="h-60 w-60  bg-slate-500 "> </div>
         <div className="h-60 w-60  bg-slate-500 "> </div>
         <div className="h-60 w-60  bg-slate-500 "> </div>
+        <div className="h-60 w-60  bg-slate-500 "> </div>
       </main>
       <footer >
         <div className="w-100 h-5 bg-slate-600 justify-center flex"> This is Footer</div>
